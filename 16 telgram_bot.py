@@ -1,7 +1,9 @@
 import telebot
+from MyToken import TOKEN
 
 
-bot = telebot.TeleBot('your token')  #Создаём подключение к боту
+
+bot = telebot.TeleBot(TOKEN)  #Создаём подключение к боту
 
 
 @bot.message_handler(content_types=['text'])
