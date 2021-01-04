@@ -11,7 +11,7 @@ def otvet_na_text(message):
     print(message)
     bot.send_message(message.chat.id, message.text[::-1])
 
-print("")
+#absolutely nothing
 
 bot.polling() #Забираем сообщения у бота
 
