@@ -5,7 +5,7 @@ import random
 
 s = False
 s2 = False
-word_list = ('автострада','спасибо')
+word_list = ('питон', 'палка', 'машина', 'слово', 'программирование')
 word0 = random.choice(word_list)
 word = list(word0)
 ans = list("*" * len(word0))
