@@ -38,7 +38,7 @@ while(game == True):
     if pygame.mouse.get_pressed()[0]:
         mousepose = pygame.mouse.get_pos()
         pygame.draw.circle(gamedisplay, color, mousepose, radius)
-        
+
     elif pygame.mouse.get_pressed()[2]: #ластик на правую кнопку
         mousepose = pygame.mouse.get_pos()
         pygame.draw.circle(gamedisplay, (255, 255, 255), mousepose, radius)
